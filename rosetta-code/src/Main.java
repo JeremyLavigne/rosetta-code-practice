@@ -11,7 +11,7 @@
  */
 
 import hundredDoors.HundredDoors;
-
+import twentyFourGame.TwentyFourGame;
 
 public class Main {
 
@@ -19,7 +19,10 @@ public class Main {
 		
 		
 		// 100 doors
-		HundredDoors.solveProblem();
+		//HundredDoors.solveProblem();
+		
+		// 24Game
+		TwentyFourGame.solveProblem();
 
 	}
 
