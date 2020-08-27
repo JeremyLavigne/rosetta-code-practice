@@ -10,8 +10,12 @@
 	
  */
 
-import hundredDoors.HundredDoors;
-import twentyFourGame.TwentyFourGame;
+
+//import hundredDoors.HundredDoors;
+//import twentyFourGame.TwentyFourGame;
+//import nineMillionsWords.NineMillionsWords;
+
+
 
 public class Main {
 
@@ -22,8 +26,10 @@ public class Main {
 		//HundredDoors.solveProblem();
 		
 		// 24Game
-		TwentyFourGame.solveProblem();
+		//TwentyFourGame.solveProblem();
 
+		// 9 Millions Words
+		//NineMillionsWords.solveProblem();
 	}
 
 }
