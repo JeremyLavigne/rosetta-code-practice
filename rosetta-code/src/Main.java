@@ -14,7 +14,7 @@
 //import hundredDoors.HundredDoors;
 //import twentyFourGame.TwentyFourGame;
 //import nineMillionsWords.NineMillionsWords;
-
+import babbage.Babbage;
 
 
 public class Main {
@@ -30,6 +30,9 @@ public class Main {
 
 		// 9 Millions Words
 		//NineMillionsWords.solveProblem();
+		
+		// Babbage Problem
+		Babbage.solveProblem();
 	}
 
 }
