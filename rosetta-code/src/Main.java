@@ -14,7 +14,8 @@
 //import hundredDoors.HundredDoors;
 //import twentyFourGame.TwentyFourGame;
 //import nineMillionsWords.NineMillionsWords;
-import babbage.Babbage;
+//import babbage.Babbage;
+import convertSeconds.ConvertSeconds;
 
 
 public class Main {
@@ -32,7 +33,10 @@ public class Main {
 		//NineMillionsWords.solveProblem();
 		
 		// Babbage Problem
-		Babbage.solveProblem();
+		//Babbage.solveProblem();
+		
+		// Convert Seconds
+		ConvertSeconds.solveProblem();
 	}
 
 }
