@@ -15,7 +15,8 @@
 //import twentyFourGame.TwentyFourGame;
 //import nineMillionsWords.NineMillionsWords;
 //import babbage.Babbage;
-import convertSeconds.ConvertSeconds;
+//import convertSeconds.ConvertSeconds;
+import dateFormat.DateFormat;
 
 
 public class Main {
@@ -36,7 +37,10 @@ public class Main {
 		//Babbage.solveProblem();
 		
 		// Convert Seconds
-		ConvertSeconds.solveProblem();
+		//ConvertSeconds.solveProblem();
+
+		// Date Format
+		DateFormat.solveProblem();
 	}
 
 }
