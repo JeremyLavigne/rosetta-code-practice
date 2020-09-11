@@ -16,7 +16,10 @@
 //import nineMillionsWords.NineMillionsWords;
 //import babbage.Babbage;
 //import convertSeconds.ConvertSeconds;
-import dateFormat.DateFormat;
+//import dateFormat.DateFormat;
+//import fibonacciSequence.FibonacciSequence;
+//import happyNumbers.HappyNumbers;
+import bottlesOfBeer.BottlesOfBeer;
 
 
 public class Main {
@@ -40,7 +43,16 @@ public class Main {
 		//ConvertSeconds.solveProblem();
 
 		// Date Format
-		DateFormat.solveProblem();
+		//DateFormat.solveProblem();
+
+		// 99 Bottles of beer
+		BottlesOfBeer.solveProblem();
+
+		// Fibonacci Sequence
+		//FibonacciSequence.solveProblem();
+
+		// Happy Numbers
+		//HappyNumbers.solveProblem();
 	}
 
 }
