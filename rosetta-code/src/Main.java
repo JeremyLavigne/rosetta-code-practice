@@ -13,11 +13,12 @@
 
 //import hundredDoors.HundredDoors;
 //import twentyFourGame.TwentyFourGame;
+import twentyFourGame.TwentyFourGame2;
 //import nineMillionsWords.NineMillionsWords;
 //import babbage.Babbage;
 //import convertSeconds.ConvertSeconds;
 //import dateFormat.DateFormat;
-import fibonacciSequence.FibonacciSequence;
+//import fibonacciSequence.FibonacciSequence;
 //import happyNumbers.HappyNumbers;
 //import bottlesOfBeer.BottlesOfBeer;
 
@@ -32,6 +33,7 @@ public class Main {
 		
 		// 24Game
 		//TwentyFourGame.solveProblem();
+		TwentyFourGame2.solveProblem();
 
 		// 9 Millions Words
 		//NineMillionsWords.solveProblem();
@@ -49,7 +51,7 @@ public class Main {
 		//BottlesOfBeer.solveProblem();
 
 		// Fibonacci Sequence
-		FibonacciSequence.solveProblem();
+		//FibonacciSequence.solveProblem();
 
 		// Happy Numbers
 		//HappyNumbers.solveProblem();

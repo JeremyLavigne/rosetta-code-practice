@@ -1,5 +1,7 @@
 package happyNumbers;
 
+import java.util.ArrayList;
+
 /*
     From Wikipedia, the free encyclopedia:
 
@@ -19,5 +21,65 @@ public class HappyNumbers {
 
     public static void solveProblem() {
 
+        ArrayList<Integer> happyNumbers = new ArrayList<>();
+        int testNumber = 1;
+
+        while (happyNumbers.size() < 8) {
+
+            if (isHappyNumber(testNumber)){
+                happyNumbers.add(testNumber);
+            }
+            testNumber ++;
+
+            // Prevent too long loop
+            if (testNumber > 50){
+                break;
+            }
+        }
+
+        System.out.println("The first 8 happy numbers are : " + happyNumbers);
+    }
+
+    /*
+        Test if it is a happy number, return true or false
+     */
+    private static boolean isHappyNumber(int testNumber) {
+
+        ArrayList<Integer> resultsHistory = new ArrayList<>();
+        int squareSum = 0;
+
+        while (squareSum != 1){
+            // Separate into digits
+            ArrayList<Integer> digits = separateDigits(testNumber);
+
+            // Find sum of square of each digits
+            squareSum = digits.stream()
+                    .map(number -> number * number)
+                    .reduce(0, (sum, previous) -> sum += previous);
+
+            // Prevent infinite loop
+            // If sum is already met, it will be doing always the same cycle
+            if (resultsHistory.contains(squareSum)){ return false;}
+
+            resultsHistory.add(squareSum);
+            testNumber = squareSum;
+        }
+
+        return true;
+    }
+
+    /*
+        Transform an Integer into a list of Integer, i.e. its digits
+     */
+    private static ArrayList<Integer> separateDigits(int number) {
+        ArrayList<Integer> digits = new ArrayList<>();
+
+        while (number > 0){
+            int rest = number % 10;
+            number = (number - rest) / 10;
+            digits.add(rest);
+        }
+
+        return digits;
     }
 }
