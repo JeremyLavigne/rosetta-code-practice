@@ -17,9 +17,9 @@
 //import babbage.Babbage;
 //import convertSeconds.ConvertSeconds;
 //import dateFormat.DateFormat;
-//import fibonacciSequence.FibonacciSequence;
+import fibonacciSequence.FibonacciSequence;
 //import happyNumbers.HappyNumbers;
-import bottlesOfBeer.BottlesOfBeer;
+//import bottlesOfBeer.BottlesOfBeer;
 
 
 public class Main {
@@ -46,10 +46,10 @@ public class Main {
 		//DateFormat.solveProblem();
 
 		// 99 Bottles of beer
-		BottlesOfBeer.solveProblem();
+		//BottlesOfBeer.solveProblem();
 
 		// Fibonacci Sequence
-		//FibonacciSequence.solveProblem();
+		FibonacciSequence.solveProblem();
 
 		// Happy Numbers
 		//HappyNumbers.solveProblem();
