@@ -13,7 +13,6 @@
 
 //import hundredDoors.HundredDoors;
 //import twentyFourGame.TwentyFourGame;
-import twentyFourGame.TwentyFourGame2;
 //import nineMillionsWords.NineMillionsWords;
 //import babbage.Babbage;
 //import convertSeconds.ConvertSeconds;
@@ -21,6 +20,9 @@ import twentyFourGame.TwentyFourGame2;
 //import fibonacciSequence.FibonacciSequence;
 //import happyNumbers.HappyNumbers;
 //import bottlesOfBeer.BottlesOfBeer;
+import hashFromArrays.HashFromArrays;
+//import identityMatrix.IdentityMatrix;
+//import letterFrequency.LetterFrequency;
 
 
 public class Main {
@@ -33,7 +35,7 @@ public class Main {
 		
 		// 24Game
 		//TwentyFourGame.solveProblem();
-		TwentyFourGame2.solveProblem();
+		//TwentyFourGame2.solveProblem();
 
 		// 9 Millions Words
 		//NineMillionsWords.solveProblem();
@@ -55,6 +57,15 @@ public class Main {
 
 		// Happy Numbers
 		//HappyNumbers.solveProblem();
+
+		// Hash from two arrays
+		HashFromArrays.solveproblem();
+
+		// Identity Matrix
+		//IdentityMatrix.solveProblem();
+
+		// Letter Frequency
+		//LetterFrequency.solveProblem();
 	}
 
 }
