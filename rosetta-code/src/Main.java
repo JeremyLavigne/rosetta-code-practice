@@ -20,9 +20,9 @@
 //import fibonacciSequence.FibonacciSequence;
 //import happyNumbers.HappyNumbers;
 //import bottlesOfBeer.BottlesOfBeer;
-import hashFromArrays.HashFromArrays;
+//import hashFromArrays.HashFromArrays;
 //import identityMatrix.IdentityMatrix;
-//import letterFrequency.LetterFrequency;
+import letterFrequency.LetterFrequency;
 
 
 public class Main {
@@ -59,13 +59,13 @@ public class Main {
 		//HappyNumbers.solveProblem();
 
 		// Hash from two arrays
-		HashFromArrays.solveproblem();
+		//HashFromArrays.solveproblem();
 
 		// Identity Matrix
 		//IdentityMatrix.solveProblem();
 
 		// Letter Frequency
-		//LetterFrequency.solveProblem();
+		LetterFrequency.solveProblem();
 	}
 
 }
