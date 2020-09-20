@@ -22,7 +22,8 @@
 //import bottlesOfBeer.BottlesOfBeer;
 //import hashFromArrays.HashFromArrays;
 //import identityMatrix.IdentityMatrix;
-import letterFrequency.LetterFrequency;
+//import letterFrequency.LetterFrequency;
+import pascalTriangle.PascalTriangle;
 
 
 public class Main {
@@ -65,7 +66,10 @@ public class Main {
 		//IdentityMatrix.solveProblem();
 
 		// Letter Frequency
-		LetterFrequency.solveProblem();
+		//LetterFrequency.solveProblem();
+
+		// Pascal's Triangle
+		PascalTriangle.solveProblem();
 	}
 
 }
